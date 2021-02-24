@@ -741,92 +741,8 @@
 		OBJ_3438 /* ServiceServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1516 /* ServiceServer.swift */; };
 		OBJ_3439 /* StreamReceiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1517 /* StreamReceiving.swift */; };
 		OBJ_3440 /* StreamSending.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1518 /* StreamSending.swift */; };
-		OBJ_3442 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */; };
 		OBJ_3443 /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::CgRPC::Product" /* CgRPC.framework */; };
 		OBJ_3444 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::BoringSSL::Product" /* BoringSSL.framework */; };
-		OBJ_3628 /* AnyMessageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1765 /* AnyMessageStorage.swift */; };
-		OBJ_3629 /* AnyUnpackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1766 /* AnyUnpackError.swift */; };
-		OBJ_3630 /* BinaryDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1767 /* BinaryDecoder.swift */; };
-		OBJ_3631 /* BinaryDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1768 /* BinaryDecodingError.swift */; };
-		OBJ_3632 /* BinaryDecodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1769 /* BinaryDecodingOptions.swift */; };
-		OBJ_3633 /* BinaryDelimited.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1770 /* BinaryDelimited.swift */; };
-		OBJ_3634 /* BinaryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1771 /* BinaryEncoder.swift */; };
-		OBJ_3635 /* BinaryEncodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1772 /* BinaryEncodingError.swift */; };
-		OBJ_3636 /* BinaryEncodingSizeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1773 /* BinaryEncodingSizeVisitor.swift */; };
-		OBJ_3637 /* BinaryEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1774 /* BinaryEncodingVisitor.swift */; };
-		OBJ_3638 /* CustomJSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1775 /* CustomJSONCodable.swift */; };
-		OBJ_3639 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1776 /* Data+Extensions.swift */; };
-		OBJ_3640 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1777 /* Decoder.swift */; };
-		OBJ_3641 /* DoubleParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1778 /* DoubleParser.swift */; };
-		OBJ_3642 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1779 /* Enum.swift */; };
-		OBJ_3643 /* ExtensibleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1780 /* ExtensibleMessage.swift */; };
-		OBJ_3644 /* ExtensionFieldValueSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1781 /* ExtensionFieldValueSet.swift */; };
-		OBJ_3645 /* ExtensionFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1782 /* ExtensionFields.swift */; };
-		OBJ_3646 /* ExtensionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1783 /* ExtensionMap.swift */; };
-		OBJ_3647 /* FieldTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1784 /* FieldTag.swift */; };
-		OBJ_3648 /* FieldTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1785 /* FieldTypes.swift */; };
-		OBJ_3649 /* Google_Protobuf_Any+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1786 /* Google_Protobuf_Any+Extensions.swift */; };
-		OBJ_3650 /* Google_Protobuf_Any+Registry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1787 /* Google_Protobuf_Any+Registry.swift */; };
-		OBJ_3651 /* Google_Protobuf_Duration+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1788 /* Google_Protobuf_Duration+Extensions.swift */; };
-		OBJ_3652 /* Google_Protobuf_FieldMask+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1789 /* Google_Protobuf_FieldMask+Extensions.swift */; };
-		OBJ_3653 /* Google_Protobuf_ListValue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1790 /* Google_Protobuf_ListValue+Extensions.swift */; };
-		OBJ_3654 /* Google_Protobuf_NullValue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1791 /* Google_Protobuf_NullValue+Extensions.swift */; };
-		OBJ_3655 /* Google_Protobuf_Struct+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1792 /* Google_Protobuf_Struct+Extensions.swift */; };
-		OBJ_3656 /* Google_Protobuf_Timestamp+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1793 /* Google_Protobuf_Timestamp+Extensions.swift */; };
-		OBJ_3657 /* Google_Protobuf_Value+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1794 /* Google_Protobuf_Value+Extensions.swift */; };
-		OBJ_3658 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1795 /* Google_Protobuf_Wrappers+Extensions.swift */; };
-		OBJ_3659 /* HashVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1796 /* HashVisitor.swift */; };
-		OBJ_3660 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1797 /* Internal.swift */; };
-		OBJ_3661 /* JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1798 /* JSONDecoder.swift */; };
-		OBJ_3662 /* JSONDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1799 /* JSONDecodingError.swift */; };
-		OBJ_3663 /* JSONDecodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1800 /* JSONDecodingOptions.swift */; };
-		OBJ_3664 /* JSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1801 /* JSONEncoder.swift */; };
-		OBJ_3665 /* JSONEncodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1802 /* JSONEncodingError.swift */; };
-		OBJ_3666 /* JSONEncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1803 /* JSONEncodingOptions.swift */; };
-		OBJ_3667 /* JSONEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1804 /* JSONEncodingVisitor.swift */; };
-		OBJ_3668 /* JSONMapEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1805 /* JSONMapEncodingVisitor.swift */; };
-		OBJ_3669 /* JSONScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1806 /* JSONScanner.swift */; };
-		OBJ_3670 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1807 /* MathUtils.swift */; };
-		OBJ_3671 /* Message+AnyAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1808 /* Message+AnyAdditions.swift */; };
-		OBJ_3672 /* Message+BinaryAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1809 /* Message+BinaryAdditions.swift */; };
-		OBJ_3673 /* Message+JSONAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1810 /* Message+JSONAdditions.swift */; };
-		OBJ_3674 /* Message+JSONArrayAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1811 /* Message+JSONArrayAdditions.swift */; };
-		OBJ_3675 /* Message+TextFormatAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1812 /* Message+TextFormatAdditions.swift */; };
-		OBJ_3676 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1813 /* Message.swift */; };
-		OBJ_3677 /* MessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1814 /* MessageExtension.swift */; };
-		OBJ_3678 /* NameMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1815 /* NameMap.swift */; };
-		OBJ_3679 /* ProtoNameProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1816 /* ProtoNameProviding.swift */; };
-		OBJ_3680 /* ProtobufAPIVersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1817 /* ProtobufAPIVersionCheck.swift */; };
-		OBJ_3681 /* ProtobufMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1818 /* ProtobufMap.swift */; };
-		OBJ_3682 /* SelectiveVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1819 /* SelectiveVisitor.swift */; };
-		OBJ_3683 /* SimpleExtensionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1820 /* SimpleExtensionMap.swift */; };
-		OBJ_3684 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1821 /* StringUtils.swift */; };
-		OBJ_3685 /* TextFormatDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1822 /* TextFormatDecoder.swift */; };
-		OBJ_3686 /* TextFormatDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1823 /* TextFormatDecodingError.swift */; };
-		OBJ_3687 /* TextFormatEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1824 /* TextFormatEncoder.swift */; };
-		OBJ_3688 /* TextFormatEncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1825 /* TextFormatEncodingOptions.swift */; };
-		OBJ_3689 /* TextFormatEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1826 /* TextFormatEncodingVisitor.swift */; };
-		OBJ_3690 /* TextFormatScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1827 /* TextFormatScanner.swift */; };
-		OBJ_3691 /* TimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1828 /* TimeUtils.swift */; };
-		OBJ_3692 /* UnknownStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1829 /* UnknownStorage.swift */; };
-		OBJ_3693 /* UnsafeBufferPointer+Shims.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1830 /* UnsafeBufferPointer+Shims.swift */; };
-		OBJ_3694 /* UnsafeRawPointer+Shims.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1831 /* UnsafeRawPointer+Shims.swift */; };
-		OBJ_3695 /* Varint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1832 /* Varint.swift */; };
-		OBJ_3696 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1833 /* Version.swift */; };
-		OBJ_3697 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1834 /* Visitor.swift */; };
-		OBJ_3698 /* WireFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1835 /* WireFormat.swift */; };
-		OBJ_3699 /* ZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1836 /* ZigZag.swift */; };
-		OBJ_3700 /* any.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1837 /* any.pb.swift */; };
-		OBJ_3701 /* api.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1838 /* api.pb.swift */; };
-		OBJ_3702 /* descriptor.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1839 /* descriptor.pb.swift */; };
-		OBJ_3703 /* duration.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1840 /* duration.pb.swift */; };
-		OBJ_3704 /* empty.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1841 /* empty.pb.swift */; };
-		OBJ_3705 /* field_mask.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1842 /* field_mask.pb.swift */; };
-		OBJ_3706 /* source_context.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1843 /* source_context.pb.swift */; };
-		OBJ_3707 /* struct.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1844 /* struct.pb.swift */; };
-		OBJ_3708 /* timestamp.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1845 /* timestamp.pb.swift */; };
-		OBJ_3709 /* type.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1846 /* type.pb.swift */; };
-		OBJ_3710 /* wrappers.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1847 /* wrappers.pb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -836,13 +752,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftGRPC::BoringSSL";
 			remoteInfo = BoringSSL;
-		};
-		88BA4A6225E360050011D841 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftProtobuf::SwiftProtobuf";
-			remoteInfo = SwiftProtobuf;
 		};
 		88BA4A6325E360050011D841 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2099,7 +2008,6 @@
 		"SwiftGRPC::SwiftGRPCNIOTests::Product" /* SwiftGRPCNIOTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftGRPCNIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftGRPC::SwiftGRPCTests::Product" /* SwiftGRPCTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftGRPCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftGRPC::protoc-gen-swiftgrpc::Product" /* protoc-gen-swiftgrpc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "protoc-gen-swiftgrpc"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftProtobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftProtobuf::SwiftProtobufPluginLibrary::Product" /* SwiftProtobufPluginLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftProtobufPluginLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftProtobuf::protoc-gen-swift::Product" /* protoc-gen-swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = "protoc-gen-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		"swift-nio-http2::CNIONghttp2::Product" /* CNIONghttp2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIONghttp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2138,16 +2046,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_3442 /* SwiftProtobuf.framework in Frameworks */,
 				OBJ_3443 /* CgRPC.framework in Frameworks */,
 				OBJ_3444 /* BoringSSL.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_3711 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3362,7 +3262,6 @@
 				"swift-nio::NIOTLS::Product" /* NIOTLS.framework */,
 				"swift-nio::CNIOLinux::Product" /* CNIOLinux.framework */,
 				"swift-nio-http2::NIOHTTP2::Product" /* NIOHTTP2.framework */,
-				"SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */,
 				"SwiftGRPC::Simple::Product" /* Simple */,
 				"swift-nio::CNIOHTTPParser::Product" /* CNIOHTTPParser.framework */,
 				"SwiftProtobuf::SwiftProtobufPluginLibrary::Product" /* SwiftProtobufPluginLibrary.framework */,
@@ -4007,7 +3906,7 @@
 			path = pick_first;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -4034,7 +3933,6 @@
 				OBJ_1933 /* SwiftGRPC.podspec */,
 			);
 			indentWidth = 2;
-			name = "";
 			sourceTree = "<group>";
 			tabWidth = 2;
 			usesTabs = 0;
@@ -5244,29 +5142,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_3445 /* PBXTargetDependency */,
 				OBJ_3446 /* PBXTargetDependency */,
 				OBJ_3447 /* PBXTargetDependency */,
 			);
 			name = SwiftGRPC;
 			productName = SwiftGRPC;
 			productReference = "SwiftGRPC::SwiftGRPC::Product" /* SwiftGRPC.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		"SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_3624 /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */;
-			buildPhases = (
-				OBJ_3627 /* Sources */,
-				OBJ_3711 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftProtobuf;
-			productName = SwiftProtobuf;
-			productReference = "SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -5285,7 +5166,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_1887 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -5293,7 +5174,6 @@
 				"SwiftGRPC::BoringSSL" /* BoringSSL */,
 				"SwiftGRPC::CgRPC" /* CgRPC */,
 				"SwiftGRPC::SwiftGRPC" /* SwiftGRPC */,
-				"SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */,
 			);
 		};
 /* End PBXProject section */
@@ -6052,96 +5932,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_3627 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_3628 /* AnyMessageStorage.swift in Sources */,
-				OBJ_3629 /* AnyUnpackError.swift in Sources */,
-				OBJ_3630 /* BinaryDecoder.swift in Sources */,
-				OBJ_3631 /* BinaryDecodingError.swift in Sources */,
-				OBJ_3632 /* BinaryDecodingOptions.swift in Sources */,
-				OBJ_3633 /* BinaryDelimited.swift in Sources */,
-				OBJ_3634 /* BinaryEncoder.swift in Sources */,
-				OBJ_3635 /* BinaryEncodingError.swift in Sources */,
-				OBJ_3636 /* BinaryEncodingSizeVisitor.swift in Sources */,
-				OBJ_3637 /* BinaryEncodingVisitor.swift in Sources */,
-				OBJ_3638 /* CustomJSONCodable.swift in Sources */,
-				OBJ_3639 /* Data+Extensions.swift in Sources */,
-				OBJ_3640 /* Decoder.swift in Sources */,
-				OBJ_3641 /* DoubleParser.swift in Sources */,
-				OBJ_3642 /* Enum.swift in Sources */,
-				OBJ_3643 /* ExtensibleMessage.swift in Sources */,
-				OBJ_3644 /* ExtensionFieldValueSet.swift in Sources */,
-				OBJ_3645 /* ExtensionFields.swift in Sources */,
-				OBJ_3646 /* ExtensionMap.swift in Sources */,
-				OBJ_3647 /* FieldTag.swift in Sources */,
-				OBJ_3648 /* FieldTypes.swift in Sources */,
-				OBJ_3649 /* Google_Protobuf_Any+Extensions.swift in Sources */,
-				OBJ_3650 /* Google_Protobuf_Any+Registry.swift in Sources */,
-				OBJ_3651 /* Google_Protobuf_Duration+Extensions.swift in Sources */,
-				OBJ_3652 /* Google_Protobuf_FieldMask+Extensions.swift in Sources */,
-				OBJ_3653 /* Google_Protobuf_ListValue+Extensions.swift in Sources */,
-				OBJ_3654 /* Google_Protobuf_NullValue+Extensions.swift in Sources */,
-				OBJ_3655 /* Google_Protobuf_Struct+Extensions.swift in Sources */,
-				OBJ_3656 /* Google_Protobuf_Timestamp+Extensions.swift in Sources */,
-				OBJ_3657 /* Google_Protobuf_Value+Extensions.swift in Sources */,
-				OBJ_3658 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */,
-				OBJ_3659 /* HashVisitor.swift in Sources */,
-				OBJ_3660 /* Internal.swift in Sources */,
-				OBJ_3661 /* JSONDecoder.swift in Sources */,
-				OBJ_3662 /* JSONDecodingError.swift in Sources */,
-				OBJ_3663 /* JSONDecodingOptions.swift in Sources */,
-				OBJ_3664 /* JSONEncoder.swift in Sources */,
-				OBJ_3665 /* JSONEncodingError.swift in Sources */,
-				OBJ_3666 /* JSONEncodingOptions.swift in Sources */,
-				OBJ_3667 /* JSONEncodingVisitor.swift in Sources */,
-				OBJ_3668 /* JSONMapEncodingVisitor.swift in Sources */,
-				OBJ_3669 /* JSONScanner.swift in Sources */,
-				OBJ_3670 /* MathUtils.swift in Sources */,
-				OBJ_3671 /* Message+AnyAdditions.swift in Sources */,
-				OBJ_3672 /* Message+BinaryAdditions.swift in Sources */,
-				OBJ_3673 /* Message+JSONAdditions.swift in Sources */,
-				OBJ_3674 /* Message+JSONArrayAdditions.swift in Sources */,
-				OBJ_3675 /* Message+TextFormatAdditions.swift in Sources */,
-				OBJ_3676 /* Message.swift in Sources */,
-				OBJ_3677 /* MessageExtension.swift in Sources */,
-				OBJ_3678 /* NameMap.swift in Sources */,
-				OBJ_3679 /* ProtoNameProviding.swift in Sources */,
-				OBJ_3680 /* ProtobufAPIVersionCheck.swift in Sources */,
-				OBJ_3681 /* ProtobufMap.swift in Sources */,
-				OBJ_3682 /* SelectiveVisitor.swift in Sources */,
-				OBJ_3683 /* SimpleExtensionMap.swift in Sources */,
-				OBJ_3684 /* StringUtils.swift in Sources */,
-				OBJ_3685 /* TextFormatDecoder.swift in Sources */,
-				OBJ_3686 /* TextFormatDecodingError.swift in Sources */,
-				OBJ_3687 /* TextFormatEncoder.swift in Sources */,
-				OBJ_3688 /* TextFormatEncodingOptions.swift in Sources */,
-				OBJ_3689 /* TextFormatEncodingVisitor.swift in Sources */,
-				OBJ_3690 /* TextFormatScanner.swift in Sources */,
-				OBJ_3691 /* TimeUtils.swift in Sources */,
-				OBJ_3692 /* UnknownStorage.swift in Sources */,
-				OBJ_3693 /* UnsafeBufferPointer+Shims.swift in Sources */,
-				OBJ_3694 /* UnsafeRawPointer+Shims.swift in Sources */,
-				OBJ_3695 /* Varint.swift in Sources */,
-				OBJ_3696 /* Version.swift in Sources */,
-				OBJ_3697 /* Visitor.swift in Sources */,
-				OBJ_3698 /* WireFormat.swift in Sources */,
-				OBJ_3699 /* ZigZag.swift in Sources */,
-				OBJ_3700 /* any.pb.swift in Sources */,
-				OBJ_3701 /* api.pb.swift in Sources */,
-				OBJ_3702 /* descriptor.pb.swift in Sources */,
-				OBJ_3703 /* duration.pb.swift in Sources */,
-				OBJ_3704 /* empty.pb.swift in Sources */,
-				OBJ_3705 /* field_mask.pb.swift in Sources */,
-				OBJ_3706 /* source_context.pb.swift in Sources */,
-				OBJ_3707 /* struct.pb.swift in Sources */,
-				OBJ_3708 /* timestamp.pb.swift in Sources */,
-				OBJ_3709 /* type.pb.swift in Sources */,
-				OBJ_3710 /* wrappers.pb.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -6149,11 +5939,6 @@
 			isa = PBXTargetDependency;
 			target = "SwiftGRPC::BoringSSL" /* BoringSSL */;
 			targetProxy = 88BA4A6125E360050011D841 /* PBXContainerItemProxy */;
-		};
-		OBJ_3445 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */;
-			targetProxy = 88BA4A6225E360050011D841 /* PBXContainerItemProxy */;
 		};
 		OBJ_3446 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -6432,58 +6217,6 @@
 			};
 			name = Release;
 		};
-		OBJ_3625 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/SwiftProtobuf_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.SwiftProtobuf;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftProtobuf;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Debug;
-		};
-		OBJ_3626 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "SwiftGRPC-Carthage.xcodeproj/SwiftProtobuf_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.SwiftProtobuf;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftProtobuf;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Release;
-		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6544,15 +6277,6 @@
 			buildConfigurations = (
 				OBJ_3402 /* Debug */,
 				OBJ_3403 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_3624 /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_3625 /* Debug */,
-				OBJ_3626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
